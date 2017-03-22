@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "diff_drive")
+set(diff_drive_MAINTAINER "overkill <overkill@todo.todo>")
+set(diff_drive_DEPRECATED "")
+set(diff_drive_VERSION "0.0.0")
+set(diff_drive_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(diff_drive_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(diff_drive_BUILDTOOL_DEPENDS "catkin")

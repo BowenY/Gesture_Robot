@@ -1,0 +1,10 @@
+frames: [ {fixed: /neck_1, target: /right_elbow_1,rotation: "y"}]
+
+num_demonstrations: 1
+# time of recording per demonstration, in seconds
+time_per_demonstration: 5
+sampling_frequency: 50
+
+# waiting time between demonstrations, in seconds
+wait_seconds: 0
+seconds_to_start_recording: 1

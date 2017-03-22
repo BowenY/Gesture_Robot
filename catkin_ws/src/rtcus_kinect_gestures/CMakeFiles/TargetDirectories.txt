@@ -1,0 +1,15 @@
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/ROSBUILD_genmsg_cpp.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/ROSBUILD_genmsg_lisp.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/ROSBUILD_gensrv_cpp.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/ROSBUILD_gensrv_lisp.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/clean-test-results.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/rosbuild_precompile.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/rosbuild_premsgsrvgen.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/rospack_genmsg.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/rospack_genmsg_libexe.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/rospack_gensrv.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/test.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/test-future.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/test-results.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/test-results-run.dir
+/opt/ros/diamondback/stacks/rtc-us-ros-pkg/branches/rtcus_kinect_gestures/CMakeFiles/tests.dir

@@ -1,0 +1,8 @@
+prefix=/home/jian/catkin_ws/devel
+
+Name: crr_robot_controller
+Description: Description of crr_robot_controller
+Version: 0.0.0
+Cflags: -I/home/jian/catkin_ws/devel/include
+Libs: -L/home/jian/catkin_ws/devel/lib 
+Requires: message_runtime

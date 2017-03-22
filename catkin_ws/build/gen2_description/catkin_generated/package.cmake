@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "gen2_description")
+set(gen2_description_MAINTAINER "overkill <overkill@todo.todo>")
+set(gen2_description_DEPRECATED "")
+set(gen2_description_VERSION "0.0.0")
+set(gen2_description_BUILD_DEPENDS )
+set(gen2_description_RUN_DEPENDS "urdf" "xacro")
+set(gen2_description_BUILDTOOL_DEPENDS "catkin")

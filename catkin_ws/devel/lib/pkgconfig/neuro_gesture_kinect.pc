@@ -1,0 +1,8 @@
+prefix=/home/jian/catkin_ws/devel
+
+Name: neuro_gesture_kinect
+Description: Description of neuro_gesture_kinect
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jian/catkin_ws/devel/lib 
+Requires: 

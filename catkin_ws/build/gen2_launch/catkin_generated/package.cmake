@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "gen2_launch")
+set(gen2_launch_MAINTAINER "curly <curly@todo.todo>")
+set(gen2_launch_DEPRECATED "")
+set(gen2_launch_VERSION "0.0.0")
+set(gen2_launch_BUILD_DEPENDS )
+set(gen2_launch_RUN_DEPENDS )
+set(gen2_launch_BUILDTOOL_DEPENDS "catkin")

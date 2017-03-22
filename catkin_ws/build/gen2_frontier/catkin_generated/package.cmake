@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "gen2_frontier")
+set(gen2_frontier_MAINTAINER "overkill <overkill@todo.todo>")
+set(gen2_frontier_DEPRECATED "")
+set(gen2_frontier_VERSION "0.0.0")
+set(gen2_frontier_BUILD_DEPENDS )
+set(gen2_frontier_RUN_DEPENDS )
+set(gen2_frontier_BUILDTOOL_DEPENDS "catkin")

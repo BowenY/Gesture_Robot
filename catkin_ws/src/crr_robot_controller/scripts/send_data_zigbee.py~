@@ -1,0 +1,49 @@
+#! /usr/bin/python
+
+from xbee import XBee,ZigBee
+import serial
+
+"""
+send_data_zigbee.py
+By jian zhang, 2014
+
+send data by zigbee
+"""
+class sendData():
+	BAUD_RATE = 9600
+	name2address = { 	'moe' 	:	'\x00\x13\xA2\x00\x40\xB4\x03\x97',
+				'larry'	:	'\x00\x13\xA2\x00\x40\xB1\x04\x80',
+				'curly'	:	'\x00\x13\xA2\x00\x40\xA7\x88\x80',
+				'backup':	'\x00\x13\xA2\x00\x40\xA7\x8A\x84',
+				'coordinater' 	:	'\x00\x00\x00\x00\x00\x00\x00\x00'
+			}			
+	def __init__(self, PORT):
+		
+		# Open serial port
+		self.ser = serial.Serial(PORT, sendData.BAUD_RATE)
+		# Create XBee Series 1 object
+      		self.xbee = ZigBee(self.ser)
+    		
+    	def __del__(self):
+    		self.ser.close()
+    	
+    	def send_Data_to_addr(self,long_addr,addr_low,Data):
+    		self.xbee.send('tx', dest_addr_long=long_addr, dest_addr=addr_low,data=Data)
+    	
+    		# Wait for response
+      		response = self.xbee.wait_read_frame()
+      		print response
+
+        def send_Data_to_name(self,name,addr_low,Data):
+		long_addr = sendData.name2address[name]
+    		self.xbee.send('tx', dest_addr_long=long_addr, dest_addr=addr_low,data=Data)
+    	
+    		# Wait for response
+      		response = self.xbee.wait_read_frame()
+      		print response
+if __name__ == '__main__':
+   	sd = sendData('/dev/ttyUSB0')
+   	sd.send_Data_to_addr('\x00\x13\xA2\x00\x40\xB4\x03\x97','\xFF\xFE','\x31')
+	sd.send_Data_to_name('moe','\xFF\xFE','thanks!')
+	
+    	

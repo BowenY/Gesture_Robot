@@ -1,0 +1,8 @@
+prefix=/home/jian/catkin_ws/devel
+
+Name: gen2_frontier
+Description: Description of gen2_frontier
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jian/catkin_ws/devel/lib 
+Requires: 

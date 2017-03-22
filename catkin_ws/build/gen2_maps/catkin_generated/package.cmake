@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "gen2_maps")
+set(gen2_maps_MAINTAINER "brain <brain@todo.todo>")
+set(gen2_maps_DEPRECATED "")
+set(gen2_maps_VERSION "0.0.0")
+set(gen2_maps_BUILD_DEPENDS )
+set(gen2_maps_RUN_DEPENDS )
+set(gen2_maps_BUILDTOOL_DEPENDS "catkin")

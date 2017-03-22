@@ -1,0 +1,17 @@
+S'/home/jian/dataset'
+p0
+.(lp0
+S'clockw'
+p1
+aS'counterclockw'
+p2
+aS'forward'
+p3
+aS'backward'
+p4
+aS'stop'
+p5
+a.I12
+.I5
+.I102
+.
